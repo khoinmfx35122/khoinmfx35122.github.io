@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px) {
+  /* INTRO */
+
+  .introduce {
+    position: relative;
+    width: 100%;
+  }
+  .introduce::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.4;
+    display: block;
+    background-color: #000000;
+  }
+  .introduce img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: 0 0px;
+  }
+  .introduce::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.4;
+    display: block;
+    background-color: #000000;
+  }
+
+  .top {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    z-index: 1;
+  }
+  .top h3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+  }
+  .top span {
+    width: 100%;
+    font-size: 15px;
+  }
+  /* NAVBAR */
+  .review {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    height: 50%;
+    border: none;
+  }
+  .avatar {
+    display: none;
+  }
+  .review a {
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 20px 20px;
+    color: black;
+    font-size: 15px;
+  }
+  .review a:nth-child(2) {
+    margin-right: 40px;
+  }
+  .review a:nth-child(3) {
+    margin-left: 40px;
+  }
+  .review i {
+    color: skyblue;
+  }
+  /* JOB_INF */
+  .job-inf {
+    width: 100%;
+  }
+  .job {
+    width: 50%;
+  }
+  .information {
+    width: 50%;
+  }
+  .inf-first {
+    width: 50%;
+  }
+  .job p {
+    padding: 10px;
+    padding-left: 0px;
+  }
+  .list {
+    padding-left: 20px;
+  }
+  .information li {
+    padding: 0px;
+  }
+
+  /* LY LICH */
+  .ly-lich {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .ly-lich span {
+    height: 100%;
+    margin: 0px;
+  }
+  .language,
+  .skill {
+    height: 100%;
+    margin: 0px;
+  }
+  /* CHUNG CHI _ GIAI THUONG */
+  .chung-chi {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid orange;
+  }
+  .chung-chi h4 {
+    font-size: 15px;
+  }
+  .chung-chi img {
+    width: 50%;
+    height: 150px;
+    margin: 10px 0px;
+    padding-right: 0px;
+  }
+  .cc-gt {
+    width: 100%;
+  }
+  .chung-chi ul {
+    padding-left: 20px;
+    align-content: end;
+    width: 50%;
+    height: auto;
+  }
+  .web-funix {
+    font-size: 10px;
+  }
+  /* DU_AN */
+  .du-an {
+    width: 100%;
+  }
+  .du-an img {
+    width: 100%;
+  }
+  .gioi-thieu p {
+    font-size: 13px;
+  }
+  .table p {
+    font-size: 11px;
+  }
+
+  /* FOOTER */
+  .links {
+    display: inline-block;
+    background-color: rgb(235, 233, 233);
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  .links span {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .links a {
+    width: 100%;
+  }
+  /* READ MORE */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .item-01 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+  }
+  .item-02 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 100%;
+  }
+  .item-04 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    width: 100%;
+  }
+  .item-03 {
+    grid-column: 1/2;
+    width: 100%;
+    grid-row: 4/5;
+  }
+  .item-05 {
+    grid-column: 1/2;
+    width: 100%;
+    grid-row: 5/6;
+  }
+}
